@@ -1,0 +1,141 @@
+//--responsive-mixins--//
+
+$mobile-small: 360px;
+
+@mixin mobile-small {
+  @media (max-width: #{$mobile-small}) {
+    @content;
+  }
+}
+
+$mobile-medium: 375px;
+
+@mixin mobile-medium {
+  @media (max-width: #{$mobile-medium}) {
+    @content;
+  }
+}
+
+$mobile-large: 414px;
+
+@mixin mobile-large {
+  @media (max-width: #{$mobile-large}) {
+    @content;
+  }
+}
+
+$mobile-extra-large: 480px;
+
+@mixin mobile-extra-large {
+  @media (max-width: #{$mobile-extra-large}) {
+    @content;
+  }
+}
+
+$tablet-extra-small: 560px;
+
+@mixin tablet-extra-small {
+  @media (max-width: #{$tablet-extra-small}) {
+    @content;
+  }
+}
+
+$tablet-small: 640px;
+
+@mixin tablet-small {
+  @media (max-width: #{$tablet-small}) {
+    @content;
+  }
+}
+
+$tablet: 768px;
+
+@mixin tablet {
+  @media (max-width: #{$tablet}) {
+    @content;
+  }
+}
+
+$tablet-medium: 850px;
+
+@mixin tablet-medium {
+  @media (max-width: #{$tablet-medium}) {
+    @content;
+  }
+}
+
+$tablet-extra-medium: 1010px;
+
+@mixin tablet-extra-medium {
+  @media (max-width: #{$tablet-extra-medium}) {
+    @content;
+  }
+}
+
+$tablet-large: 1079px;
+
+@mixin tablet-large {
+  @media (max-width: #{$tablet-large}) {
+    @content;
+  }
+}
+
+@mixin tablet-large-min-width {
+  @media (min-width: #{$tablet-large}) {
+    @content;
+  }
+}
+
+$tablet-extra-large: 1210px;
+
+@mixin tablet-extra-large {
+  @media (max-width: #{$tablet-extra-large}) {
+    @content;
+  }
+}
+
+$laptop: 1366px;
+
+@mixin laptop {
+  @media (max-width: #{$laptop}) {
+    @content;
+  }
+}
+
+$desktop: 1920px;
+
+@mixin desktop {
+  @media (max-width: #{$desktop}) {
+    @content;
+  }
+}
+
+$desktop-ultrawide: 3840px;
+
+@mixin desktop-ultrawide {
+  @media (max-width: #{$desktop-ultrawide}) {
+    @content;
+  }
+}
+
+//--global-style-mixins--//
+
+@mixin mobile-small-padding {
+  padding: 20px 10px;
+}
+
+@mixin tablet-padding {
+  padding: 40px 30px;
+}
+
+$primary-color: #7B48EB;
+$secondary-color: #703FE8;
+$primary-light-color: #AC9FF0;
+$primary-lightest-color: #C8C2E7;
+$dark-grey: #474747;
+$dark-blue: #2D9CDB;
+$light-blue: #56CCF2;
+$dark-white: #f7f7f7;
+$white: #ffffff;
+
+

@@ -1,0 +1,38 @@
+@import '/src/assets/variables.scss';
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif;
+  margin: auto;
+  color: white;
+
+  body {
+    overflow-x: hidden;
+    height: 100%;
+
+    h1{
+      font-size:36px;
+      color: #474747;
+    }
+
+    input {
+      padding-left: 10px;
+      color: $dark-grey;
+      border-radius: 10px;
+      &:focus {
+       outline: none;
+      }
+    }
+  }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
